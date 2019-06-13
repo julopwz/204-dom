@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+    background-color: lightblue;
+    overflow-x: hidden;
+
+}
+
+nav{
+    background-color: lightpink;
+    height: 80px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-weight: bolder;
+    font-size: 20pt;
+    
+}
+ul{
+    list-style-type: none;
+    /* display: none; */
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    transform: translateX(100vw);
+}
+
+nav div img{
+    height: 87px;
+    cursor: pointer;
+}
+
+.ativa{
+    /* display: flex; */
+    transform: translateX(0);
+    transition: 2s;
+}
+main{
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    justify-content: center;
+    height: 600px;
+}
+main img{
+    width: 600px;
+}
+
+.roda-jequiti{
+    transform: rotate(1440deg);
+    transition: 2s;
+}
+
+section img{
+    width: 80px;
+    transform: translate(  );
+    
+}
